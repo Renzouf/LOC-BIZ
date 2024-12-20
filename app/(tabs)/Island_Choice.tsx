@@ -8,7 +8,9 @@ const Aines = () => {
 
   const openLocation = () => { 
     const label = 'Island Choice'; 
-    const mapUrl = `https://maps.app.goo.gl/av9uy7chjbhgNzTC6`; 
+    const mapUrl = `https://maps.app.goo.gl/av9uy7chjbhgNzTC6console.log('openLocation function called');
+console.log('mapUrl:', mapUrl);
+console.log('label:', label);`; 
     Linking.openURL(mapUrl); 
   };
 
